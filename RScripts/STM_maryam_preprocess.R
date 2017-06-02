@@ -1,6 +1,6 @@
 library(stm)
 path <- "d:/pique/"
-lower_thresh <- 0.001
+lower_thresh <- 0.0001
 upper_thresh <- 0.5
 data <- read.csv(paste(path,"finalACMData.csv", sep=""))
 lower_thresh <- as.integer(lower_thresh * length(data$Abstract))
